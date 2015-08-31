@@ -1,0 +1,111 @@
+
+implicity   n. 不问原因；不怀疑；隐含性
+instantiate   vt 举例说明，实例化
+get hold of   把握 抓住 得到
+parenthese    n 括号，圆括号
+comma     n 逗号；停顿
+beside   prep. 在旁边；与…相比；和…无关
+prepen    vt 预先考虑，预谋
+benchmark    n基准，标准检查程序  vt用基准问题测试
+frontedn    前端
+tuning    n起音，定音，调谐，调音，起弦，协调一直
+spawn    n卵，产物   vt 产卵，大量生产
+go on   继续，过去，继续下去
+vital     adj. 至关重要的；生死攸关的；有活力的
+statistic  adj. 统计的，统计学的 n. 统计数值
+solid      adj. 固体的；可靠的；立体的；结实的；一致的n. 固体；立方体
+capable    adj. 能干的，能胜任的；有才华的
+native  adj本国的本土的
+natively      adv. 生来地；天然地
+calm    adj. 静的，平静的；沉着的vt. 使平静；使镇定
+approach   n. 方法；途径；接近 vt. 接近；着手处理 vi. 靠近
+annual  adj. 年度的；每年的n. 年刊，年鉴；一年生植物
+instruct   vt. 指导；通知；命令；教授
+advantage      n. 优势；利益；有利条件 vi. 获利  vt. 有利于；使处于优势
+alternative    adj. 供选择的；选择性的；交替的  n. 二中择一；供替代的选择
+
+either  
+adj. 两者之中任一的；两者之中每一的
+prep. 任何一个
+conj. 也（用于否定句或否定词组后）；根本
+pron. 任一，两方，随便哪一个；两者中的一个或另一个
+
+whether
+conj. 是否；不论
+pron. 两个中的哪一个
+
+standalone   adj.单独的
+fallback   n. 可依靠的东西；撤退，退却
+encounter    vt. 遭遇，邂逅；遇到 n. 遭遇，偶然碰见
+singular    adj. 单数的；单一的；非凡的；异常的 n. 单数
+appear to be    好像是；仿佛
+weird   adj. 怪异的；不可思议的；超自然的 n. （苏格兰）命运；预言
+grok    vt. 凭直觉深刻了解；欣赏；神交  vi. 心意相通；与…神交
+hypothesis  n. 假设
+quite a while     有一阵子，半天；相当长一段时间
+canonical    adj. 依教规的；权威的；牧师的  n. 牧师礼服
+obsessive   adj. 强迫性的；着迷的；分神的
+observe    vt. 观察；遵守；说；注意到；评论 vi. 观察；说；注意到；评论
+albeit    conj. 虽然；即使
+
+whatever在句子中做宾语,如whatever you want,无论你想要什么 .
+however在句子中做状语,如 however you want it,无论如何你想要它.
+前者的句子必缺少成分,you want句子不完整,缺宾语.
+而后者用的句子是完整的,you want it,这句话是完整的.
+所以,判断是whatever还是however,只要判断句子完整与否就好了.
+
+side by side 并肩；一起；并排
+rather than     而不是；宁可…也不愿
+consist    vi. 由…组成；在于；符合
+accord     n. 符合；一致；协议；自愿   vt. 使一致；给予     vi. 符合；一致
+invitation  n. 邀请；引诱
+margin  n. 边缘；利润，余裕；页边的空白;保证金  vt. 加边于；加旁注于
+hover    vi. 盘旋，翱翔；徘徊   n. 徘徊；盘旋；犹豫   vt. 孵；徘徊在…近旁
+brand  vt. 铭刻于，铭记；打烙印于；印…商标于   n. 商标，牌子；烙印
+tear    n. 眼泪, （撕破的）洞或裂缝, 撕扯   vt. 撕掉, 扯下, 扰乱    vi. 流泪, 撕破
+speech   n. 演讲；讲话；[语] 语音；演说
+footnote      n. 脚注；补充说明  	vt. 给…作脚注；在脚注里评议
+dig      vt. 挖，掘；探究   vi. 挖掘   n. 戳，刺；挖苦
+
+keep away from me
+what would you like to drink?
+what would you like to drink before ordering? 点菜
+intercept    vt. 拦截；截断；窃听  n. 拦截；[数] 截距；截获的情报
+unary     adj. [数] 一元的
+tune the behavior   调优行为
+motivate      vt. 刺激；使有动机；激发…的积极性
+
+
+前者具有代词性和名词性，所以不能接形容词和副词，可接名词或做主语和宾语；
+后者具有副词性，所以用于形容词或副词前，much有副词性，所以用however。
+
+whatever无论什么,引导名词性状语从句或让步状语从句
+e.g.I will listen you say.
+you say,I will do.
+however,anyway,后面一般都跟逗号,具体用哪个就要根据句意了.
+
+
+
+
+
+
+
+Python在启动解释器的时候，会自动导入两个默认的全局模块` __built-ins__ `和 `__main__` 所有的对象都存储在其中.
+
+
+_________________________________________________________________________________________
+
+判断是否可迭代
+hasattr({}, '__iter__')
+
+
+iter()
+```
+a = 'abcd'
+b=iter(a)
+b.next
+```
+
+callable()
+中文说明：检查对象object是否可调用。如果返回True，object仍然可能调用失败；但如果返回False，调用对象ojbect绝对不会成功。
+注意：类是可调用的，而类的实例实现了__call__()方法才可调用。
